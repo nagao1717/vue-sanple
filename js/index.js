@@ -42,16 +42,26 @@
 }
 
 {//3-6
+// Vue.createApp({
+//     data() {
+//         return {
+//             myName:'太郎',
+//         };
+//     },
+//     methods: {
+//         onclick(e){
+//             console.log(e.type);
+//         },
+//     }
+// }).mount('#app');
+}
+
+{//3-7
 Vue.createApp({
     data() {
         return {
-            myName:'太郎',
+            show:true
         };
-    },
-    methods: {
-        onclick(e){
-            console.log(e.type);
-        },
     }
 }).mount('#app');
 }
