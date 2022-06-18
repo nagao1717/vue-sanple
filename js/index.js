@@ -57,11 +57,24 @@
 }
 
 {//3-7
-Vue.createApp({
-    data() {
-        return {
-            show:true
-        };
-    }
-}).mount('#app');
+// Vue.createApp({
+//     data() {
+//         return {
+//             show:true
+//         };
+//     }
+// }).mount('#app');
+// 
+}
+{//1
+    // Vue.createApp({
+    //     data() {
+    //         return {
+    //             holiday:''
+    //         };
+    //     }
+    // }).mount('#app');
+}
+{//2
+
 }
