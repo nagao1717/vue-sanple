@@ -76,5 +76,42 @@
     // }).mount('#app');
 }
 {//2
-
+// Vue.createApp({
+//     data() {
+//         return {
+//             books: [
+//                 {
+//                     isbn:'1',
+//                     title:'jsレシピ',
+//                     price:2000,
+//                 },
+//                 {
+//                     isbn:'12',
+//                     title:'cssレシピ',
+//                     price:1000,
+//                 },
+//                 {
+//                     isbn:'13',
+//                     title:'htmlレシピ',
+//                     price:3000,
+//                 },
+//                 {
+//                     isbn:'14',
+//                     title:'pythonレシピ',
+//                     price:4000,
+//                 },
+//                 {
+//                     isbn:'15',
+//                     title:'sassレシピ',
+//                     price:2000,
+//                 },
+//             ],
+//             book2 :{
+//                 isbn:'1111',
+//                 title: 'テスト',
+//                 price:10000,
+//             }
+//         };
+//     }
+// }).mount('#app');
 }
