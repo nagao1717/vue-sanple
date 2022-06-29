@@ -115,3 +115,7 @@
 //     }
 // }).mount('#app');
 }
+var get = function(base,height) {
+    return base*height / 2;
+};
+console.log(get);
