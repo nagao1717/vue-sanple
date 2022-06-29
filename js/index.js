@@ -119,3 +119,14 @@ var get = function(base,height) {
     return base*height / 2;
 };
 console.log(get);
+function sum(...nums) {
+    let result=0;
+    for(let num of nums) {
+        if(typeof num != 'number') {
+            throw new Error('指定値が数値ではありません:'+num);
+        }
+        result+=num;
+    }
+    return result;
+}
+console.log(sum(12,12,12,12));
